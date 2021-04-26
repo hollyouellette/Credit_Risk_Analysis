@@ -2,7 +2,7 @@
 
 ## Overview of Purpose
 
-LendingClub, a peer-to-peer lending services company is seeking to test different machine learning models that could enables lenders to analyze risk based on a variety of other variables. In this project, analysis was performed to test a variety of different machine learning models using a credit card dataset and evaluate there performance. The purpose of this analysis was to evaluate the performance of each of these models and to recommend on whether they should be used to predict credit risk.
+LendingClub, a peer-to-peer lending services company, is seeking to test different machine learning models that could enable lenders to analyze risk based on a variety of other variables. In this project, analysis was performed to test a variety of different machine learning models using a credit card dataset to evaluate their performance. The purpose of this analysis was to evaluate the performance of each of these models and to recommend on whether they should be used to predict credit risk.
 
 ## Results
 
@@ -77,7 +77,7 @@ LendingClub, a peer-to-peer lending services company is seeking to test differen
 
 ## Summary
 
-In summary, many of these models performed similarly when predicting credit results. In this analysis, precision in identifying low credit risk is critical, as a false positive could results in approving credit to a high-risk customer. For this reason, the low-risk precision is more important than the recall or the sensitivity of the model. 
+In summary, many of these models performed similarly when predicting credit results. In this analysis, precision in identifying low credit risk is critical, as a false positive could result in approving credit to a high-risk customer. For this reason, the low-risk precision is more important than the recall or the sensitivity of the model. 
 
 While all of these models demonstrated high precision in predicting low-risk – the Balance Random Forest Classifier yielded the most impressive results. This model exhibited both high precision and high sensitivity when predicting low-risk. As a result, this model also yielded the highest Harmonic Mean; 0.95.
 
