@@ -8,10 +8,10 @@ LendingClub, a peer-to-peer lending services company is seeking to test differen
 
 ### Oversampling Algorithms
 
- **RandomOverSampler**<br><br>
- <img align="left" src="https://github.com/hollyouellette/Credit_Risk_Analysis/blob/main/analysis/Naive_Random_Oversampling.png" width=600>
+ **RandomOverSampler**
+ <img align="right" src="https://github.com/hollyouellette/Credit_Risk_Analysis/blob/main/analysis/Naive_Random_Oversampling.png" width=550>
  
-  *Balanced Accuracy Score:* 0.659 <br>
+  *Balanced Accuracy Score:* 0.659 <br><br>
   *Precision:* <br>
      - High precision is predicting low-risk<br>
      - Low precision is predicting high-risk<br>
