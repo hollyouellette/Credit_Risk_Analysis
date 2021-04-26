@@ -50,7 +50,7 @@ LendingClub, a peer-to-peer lending services company is seeking to test differen
       - High precision is predicting low-risk<br>
       - Low precision is predicting high-risk<br><br>
     *Sensitivity:*<br>
-      - High sensitivity for predicting high-risk <br>
+      - 0.70 for predicting high-risk <br>
       - 0.57 for predicting low-risk <br><br>
 
 ### Machine Learning Models to Reduce Bias
@@ -63,7 +63,7 @@ LendingClub, a peer-to-peer lending services company is seeking to test differen
       - Low precision is predicting high-risk<br><br>
     *Sensitivity:*<br>
       - 0.75 for predicting high-risk <br>
-      - High sensitivity for predicting low-risk <br><br>
+      - 0.90 (high sensitivity) for predicting low-risk <br><br>
   
   **Easy Ensemble AdaBooster Classifier**<br><br>
     *Balanced Accuracy Score:* 0.607<br><br>
@@ -72,5 +72,5 @@ LendingClub, a peer-to-peer lending services company is seeking to test differen
       - High precision is predicting low-risk<br>
       - Low precision is predicting high-risk<br><br>
     *Sensitivity:*<br>
-      - 0.42 for predicting high-risk <br>
+      - 0.42 (low) for predicting high-risk <br>
       - 0.79 for predicting low-risk <br><br>
