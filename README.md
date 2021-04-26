@@ -74,3 +74,11 @@ LendingClub, a peer-to-peer lending services company is seeking to test differen
     *Sensitivity:*<br>
       - 0.42 (low) for predicting high-risk <br>
       - 0.79 for predicting low-risk <br><br>
+
+## Summary
+
+In summary, many of these models performed similarly when predicting credit results. In this analysis, precision in identifying low credit risk is critical, as a false positive could results in approving credit to a high-risk customer. For this reason, the low-risk precision is more important than the recall or the sensitivity of the model. 
+
+While all of these models demonstrated high precision in predicting low-risk – the Balance Random Forest Classifier yielded the most impressive results. This model exhibited both high precision and high sensitivity when predicting low-risk. As a result, this model also yielded the highest Harmonic Mean; 0.95.
+
+For this reason, I would recommend that LendingClub use the Balance Random Classifier machine learning model to predict credit risk for their clients.   
