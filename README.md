@@ -20,10 +20,11 @@ LendingClub, a peer-to-peer lending services company is seeking to test differen
      - 0.66 for both high-risk and low-risk predictions<br><br>
 
   **SMOTE**<br><br>
-    *Balanced Accuracy Score:* 0.627<br>
+    *Balanced Accuracy Score:* 0.627<br><br>
+    <img align="right" src="https://github.com/hollyouellette/Credit_Risk_Analysis/blob/main/analysis/SMOTE_Oversampling.png" width=600>
     *Precision:* <br>
       - High precision is predicting low-risk<br>
-      - Low precision is predicting high-risk<br>
+      - Low precision is predicting high-risk<br><br>
     *Sensitivity:*<br>
       - 0.61 for predicting high-risk <br>
       - 0.64 for predicting low-risk <br>
@@ -31,10 +32,11 @@ LendingClub, a peer-to-peer lending services company is seeking to test differen
 ### Undersampling Algorithm
 
    **CluseredCentroids**<br><br>
-    *Balanced Accuracy Score:* 0.591<br>
+    *Balanced Accuracy Score:* 0.591<br><br>
+    <img align="right" src="https://github.com/hollyouellette/Credit_Risk_Analysis/blob/main/analysis/Undersampling.png" width=600>
     *Precision:* <br>
       - High precision is predicting low-risk<br>
-      - Low precision is predicting high-risk<br>
+      - Low precision is predicting high-risk<br><br>
     *Sensitivity:*<br>
       - 0.61 for predicting high-risk <br>
       - 0.57 for predicting low-risk <br><br>
@@ -42,10 +44,11 @@ LendingClub, a peer-to-peer lending services company is seeking to test differen
 ### Combinational Approach
 
    **SMOTEENN**<br><br>
-    *Balanced Accuracy Score:* 0.638<br>
+    *Balanced Accuracy Score:* 0.638<br><br>
+    <img align="right" src="https://github.com/hollyouellette/Credit_Risk_Analysis/blob/main/analysis/SMOTEENN.png" width=600>
     *Precision:* <br>
       - High precision is predicting low-risk<br>
-      - Low precision is predicting high-risk<br>
+      - Low precision is predicting high-risk<br><br>
     *Sensitivity:*<br>
       - High sensitivity for predicting high-risk <br>
       - 0.57 for predicting low-risk <br><br>
@@ -53,19 +56,21 @@ LendingClub, a peer-to-peer lending services company is seeking to test differen
 ### Machine Learning Models to Reduce Bias
 
   **Balanced Random Forest Classifier**<br><br>
-    *Balanced Accuracy Score:* 0.902<br>
+    *Balanced Accuracy Score:* 0.902<br><br>
+     <img align="right" src="https://github.com/hollyouellette/Credit_Risk_Analysis/blob/main/analysis/balanced_random_forest_classifier.png" width=600>
     *Precision:* <br>
       - High precision is predicting low-risk<br>
-      - Low precision is predicting high-risk<br>
+      - Low precision is predicting high-risk<br><br>
     *Sensitivity:*<br>
       - 0.75 for predicting high-risk <br>
       - High sensitivity for predicting low-risk <br><br>
   
   **Easy Ensemble AdaBooster Classifier**<br><br>
-    *Balanced Accuracy Score:* 0.607<br>
+    *Balanced Accuracy Score:* 0.607<br><br>
+         <img align="right" src="https://github.com/hollyouellette/Credit_Risk_Analysis/blob/main/analysis/adaboost.png" width=600>
     *Precision:* <br>
       - High precision is predicting low-risk<br>
-      - Low precision is predicting high-risk<br>
+      - Low precision is predicting high-risk<br><br>
     *Sensitivity:*<br>
       - 0.42 for predicting high-risk <br>
       - 0.79 for predicting low-risk <br><br>
