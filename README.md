@@ -9,12 +9,12 @@ LendingClub, a peer-to-peer lending services company is seeking to test differen
 ### Oversampling Algorithms
 
   **RandomOverSampler**<br><br>
-     *Balanced Accuracy Score:* 0.659 <br>
-     *Precision:* <br>
-        - High precision is predicting low-risk<br>
-        - Low precision is predicting high-risk<br>
-     *Sensitivity:*<br>
-        - 0.66 for both high-risk and low-risk predictions<br><br>
+       *Balanced Accuracy Score:* 0.659 <br>
+       *Precision:* <br>
+          - High precision is predicting low-risk<br>
+          - Low precision is predicting high-risk<br>
+       *Sensitivity:*<br>
+          - 0.66 for both high-risk and low-risk predictions<br><br>
 
   **SMOTE**
     *Balanced Accuracy Score:* 0.627
@@ -25,35 +25,44 @@ LendingClub, a peer-to-peer lending services company is seeking to test differen
       - 0.61 for predicting high-risk 
       - 0.64 for predicting low-risk 
 
-### Undersampling Algorithm
+### Undersampling Algorithm<
 
-   **CluseredCentroids**
-    *Balanced Accuracy Score:* 0.591
-    *Precision:* 
-      - High precision is predicting low-risk
-      - Low precision is predicting high-risk
-    *Sensitivity:*
-      - 0.61 for predicting high-risk 
-      - 0.57 for predicting low-risk 
+   **CluseredCentroids**<br><br>
+    *Balanced Accuracy Score:* 0.591<br>
+    *Precision:* <br>
+      - High precision is predicting low-risk<br>
+      - Low precision is predicting high-risk<br>
+    *Sensitivity:*<br>
+      - 0.61 for predicting high-risk <br>
+      - 0.57 for predicting low-risk <br><br>
      
 ### Combinational Approach
 
-   **SMOTEENN**
-    *Balanced Accuracy Score:* 0.638
-    *Precision:* 
-      - High precision is predicting low-risk
-      - Low precision is predicting high-risk
-    *Sensitivity:*
-      - High sensitivity for predicting high-risk 
-      - 0.57 for predicting low-risk 
+   **SMOTEENN**<br><br>
+    *Balanced Accuracy Score:* 0.638<br>
+    *Precision:* <br>
+      - High precision is predicting low-risk<br>
+      - Low precision is predicting high-risk<br>
+    *Sensitivity:*<br>
+      - High sensitivity for predicting high-risk <br>
+      - 0.57 for predicting low-risk <br><br>
 
 ### Machine Learning Models to Reduce Bias
 
-  **Balanced Random Forest Classifier**
-    *Balanced Accuracy Score:* 0.902
-    *Precision:* 
-      - High precision is predicting low-risk
-      - Low precision is predicting high-risk
-    *Sensitivity:*
-      - 0.75 for predicting high-risk 
-      - High sensitivity for predicting low-risk 
+  **Balanced Random Forest Classifier**<br><br>
+    *Balanced Accuracy Score:* 0.902<br>
+    *Precision:* <br>
+      - High precision is predicting low-risk<br>
+      - Low precision is predicting high-risk<br>
+    *Sensitivity:*<br>
+      - 0.75 for predicting high-risk <br>
+      - High sensitivity for predicting low-risk <br><br>
+  
+  **Easy Ensemble AdaBooster Classifier**<br><br>
+    *Balanced Accuracy Score:* 0.607<br>
+    *Precision:* <br>
+      - High precision is predicting low-risk<br>
+      - Low precision is predicting high-risk<br>
+    *Sensitivity:*<br>
+      - 0.42 for predicting high-risk <br>
+      - 0.79 for predicting low-risk <br><br>
